@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>MP3 Rechner</title>
+</head>
+<body>
+
+<div style="background-color:white;
+width:200px;
+height:125px;
+border:1px black solid;
+">
+<form action="http://swlab.mt.haw-hamburg.de/plass/prg/bitrate.php" method"post" >
+Bitrate:<input size="5" name="bitrate"> kbit/sec <br> 
+Dauer: <input size="5" name="minuten"> min	<br> 
+Dauer: <input size="5" name="sekunden"> sec <br>
+<p align=right> <input type="submit" name="submit" value="Größe berechnen">
+</form>
+</div>
+
+
+</body>
+</html>
